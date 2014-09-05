@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF935B9B19B9918D00D7FA8E /* AppDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF935B9A19B9918D00D7FA8E /* AppDetailsViewController.m */; };
+		DF935B9E19B996CD00D7FA8E /* OurAppsTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF935B9D19B996CD00D7FA8E /* OurAppsTableTableViewController.m */; };
 		DFB7226819B956D4000F2A5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB7226719B956D4000F2A5E /* Foundation.framework */; };
 		DFB7226A19B956D4000F2A5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB7226919B956D4000F2A5E /* CoreGraphics.framework */; };
 		DFB7226C19B956D4000F2A5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB7226B19B956D4000F2A5E /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 /* Begin PBXFileReference section */
 		DF935B9919B9918D00D7FA8E /* AppDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailsViewController.h; sourceTree = "<group>"; };
 		DF935B9A19B9918D00D7FA8E /* AppDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailsViewController.m; sourceTree = "<group>"; };
+		DF935B9C19B996CD00D7FA8E /* OurAppsTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OurAppsTableTableViewController.h; sourceTree = "<group>"; };
+		DF935B9D19B996CD00D7FA8E /* OurAppsTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OurAppsTableTableViewController.m; sourceTree = "<group>"; };
 		DFB7226419B956D4000F2A5E /* Recipe 2-1 to 2-2:About Us.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 2-1 to 2-2:About Us.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB7226719B956D4000F2A5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFB7226919B956D4000F2A5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -125,6 +128,8 @@
 				DFD1B06319B98A1800009B2A /* AppDetails.m */,
 				DF935B9919B9918D00D7FA8E /* AppDetailsViewController.h */,
 				DF935B9A19B9918D00D7FA8E /* AppDetailsViewController.m */,
+				DF935B9C19B996CD00D7FA8E /* OurAppsTableTableViewController.h */,
+				DF935B9D19B996CD00D7FA8E /* OurAppsTableTableViewController.m */,
 				DFB7227C19B956D4000F2A5E /* ViewController.h */,
 				DFB7227D19B956D4000F2A5E /* ViewController.m */,
 				DFB7227F19B956D4000F2A5E /* Images.xcassets */,
@@ -260,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFB7227E19B956D4000F2A5E /* ViewController.m in Sources */,
+				DF935B9E19B996CD00D7FA8E /* OurAppsTableTableViewController.m in Sources */,
 				DFB7227819B956D4000F2A5E /* AppDelegate.m in Sources */,
 				DF935B9B19B9918D00D7FA8E /* AppDetailsViewController.m in Sources */,
 				DFD1B06419B98A1800009B2A /* AppDetails.m in Sources */,
