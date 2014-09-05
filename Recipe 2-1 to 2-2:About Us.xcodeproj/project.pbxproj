@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF935B9B19B9918D00D7FA8E /* AppDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF935B9A19B9918D00D7FA8E /* AppDetailsViewController.m */; };
 		DFB7226819B956D4000F2A5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB7226719B956D4000F2A5E /* Foundation.framework */; };
 		DFB7226A19B956D4000F2A5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB7226919B956D4000F2A5E /* CoreGraphics.framework */; };
 		DFB7226C19B956D4000F2A5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB7226B19B956D4000F2A5E /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		DFB7228919B956D4000F2A5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB7226B19B956D4000F2A5E /* UIKit.framework */; };
 		DFB7229119B956D4000F2A5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFB7228F19B956D4000F2A5E /* InfoPlist.strings */; };
 		DFB7229319B956D4000F2A5E /* Recipe_2_1_to_2_2_About_UsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB7229219B956D4000F2A5E /* Recipe_2_1_to_2_2_About_UsTests.m */; };
+		DFD1B06419B98A1800009B2A /* AppDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD1B06319B98A1800009B2A /* AppDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF935B9919B9918D00D7FA8E /* AppDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailsViewController.h; sourceTree = "<group>"; };
+		DF935B9A19B9918D00D7FA8E /* AppDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailsViewController.m; sourceTree = "<group>"; };
 		DFB7226419B956D4000F2A5E /* Recipe 2-1 to 2-2:About Us.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe 2-1 to 2-2:About Us.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFB7226719B956D4000F2A5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DFB7226919B956D4000F2A5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		DFB7228E19B956D4000F2A5E /* Recipe 2-1 to 2-2:About UsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe 2-1 to 2-2:About UsTests-Info.plist"; sourceTree = "<group>"; };
 		DFB7229019B956D4000F2A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DFB7229219B956D4000F2A5E /* Recipe_2_1_to_2_2_About_UsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_2_1_to_2_2_About_UsTests.m; sourceTree = "<group>"; };
+		DFD1B06219B98A1800009B2A /* AppDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetails.h; sourceTree = "<group>"; };
+		DFD1B06319B98A1800009B2A /* AppDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				DFB7227619B956D4000F2A5E /* AppDelegate.h */,
 				DFB7227719B956D4000F2A5E /* AppDelegate.m */,
 				DFB7227919B956D4000F2A5E /* Main.storyboard */,
+				DFD1B06219B98A1800009B2A /* AppDetails.h */,
+				DFD1B06319B98A1800009B2A /* AppDetails.m */,
+				DF935B9919B9918D00D7FA8E /* AppDetailsViewController.h */,
+				DF935B9A19B9918D00D7FA8E /* AppDetailsViewController.m */,
 				DFB7227C19B956D4000F2A5E /* ViewController.h */,
 				DFB7227D19B956D4000F2A5E /* ViewController.m */,
 				DFB7227F19B956D4000F2A5E /* Images.xcassets */,
@@ -251,6 +261,8 @@
 			files = (
 				DFB7227E19B956D4000F2A5E /* ViewController.m in Sources */,
 				DFB7227819B956D4000F2A5E /* AppDelegate.m in Sources */,
+				DF935B9B19B9918D00D7FA8E /* AppDetailsViewController.m in Sources */,
+				DFD1B06419B98A1800009B2A /* AppDetails.m in Sources */,
 				DFB7227419B956D4000F2A5E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +468,7 @@
 				DFB7229819B956D4000F2A5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFB7229919B956D4000F2A5E /* Build configuration list for PBXNativeTarget "Recipe 2-1 to 2-2:About UsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				DFB7229B19B956D4000F2A5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
